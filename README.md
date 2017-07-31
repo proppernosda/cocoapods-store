@@ -23,9 +23,9 @@ This gives several benefits:
 ## Usage
 
 ```bash
-	$ pod spec push --bucket "my-pod-store" --aws-key "KEY" --aws-secret "SECRET"
+	$ pod store push --bucket "my-pod-store" --aws-key "KEY" --aws-secret "SECRET"
 
-	$ pod spec pull --bucket "my-pod-store" --aws-key "KEY" --aws-secret "SECRET"
+	$ pod store pull --bucket "my-pod-store" --aws-key "KEY" --aws-secret "SECRET"
 ```
 
 It is recommended that you create a `.cocoapods-store.yml` rather than passing
@@ -40,9 +40,9 @@ aws-secret: "SECRET"
 With a yaml file in place, you can simply call:
 
 ```bash
-	$ pod spec push
+	$ pod store push
 
-	$ pod spec pull
+	$ pod store pull
 ```
 
 ## Roadmap

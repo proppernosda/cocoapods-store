@@ -1,5 +1,7 @@
 # cocoapods-store
 
+**NOTE:** This plugin is in very early stages so YMMV and avoid running on repos with unstaged changes. 
+
 cocoapods-store is a plugin that lets you load push and pull dependencies to
 and from an s3 bucket.
 
